@@ -5,9 +5,7 @@ import herb.bank.payday.repo.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class UserService {

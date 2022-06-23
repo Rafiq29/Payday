@@ -4,8 +4,6 @@ import herb.bank.payday.entity.User;
 import herb.bank.payday.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Collection;
-
 @RestController
 @RequestMapping("/users")
 public class UserController {

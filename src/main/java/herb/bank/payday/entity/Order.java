@@ -11,10 +11,7 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    //TODO
-    @OneToOne
-    @JoinColumn(name = "stock_name")
-    private Stock name;
+    private String stock_name;
     private int quantity;
     private int order_num;
     private int order_price;

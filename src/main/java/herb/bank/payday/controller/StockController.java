@@ -4,8 +4,6 @@ import herb.bank.payday.entity.Stock;
 import herb.bank.payday.service.StockService;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Collection;
-
 @RestController
 @RequestMapping("/stocks")
 public class StockController {

@@ -1,12 +1,10 @@
 package herb.bank.payday.service;
 
 import herb.bank.payday.entity.Order;
-import herb.bank.payday.entity.User;
 import herb.bank.payday.repo.OrderRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Optional;
 
 @Service

@@ -1,11 +1,8 @@
 package herb.bank.payday.controller;
 
 import herb.bank.payday.entity.Order;
-import herb.bank.payday.entity.User;
 import herb.bank.payday.service.OrderService;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Collection;
 
 @RestController
 @RequestMapping("/orders")
